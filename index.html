@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
 <meta charset="utf-8">
   <title>Formulieren</title>
@@ -12,119 +12,119 @@
 
     <p>Om een eerste stap te zetten naar een persoonlijk opleidingplan zul je eerst een paar vragen voor jezelf moeten beantoorden. Dit formulier helpt jou daar bij.</p>
     
-    <form>
+    <form action="http://bla.hosts.ma-cloud.nl/pop.php">
       Naam:
-      <input type="text" name="Bv. Jan Jansen">  
-    </form>
+      <input type="text" autofocus required name="Naam" placeholder="Uw naam..">  
+    
 
-    <select name="klassen" id="klassen">
+    <select name="Klas" id="klassen">
         <option value="kiesEenKlas">Kies een klas.</option>
-        <option value="MG1A">MG1A</option>
-        <option value="MG1B">MG1B</option>
-        <option value="MG1C">MG1C</option>
-        <option value="MG1D">MG1D</option>
+        <option value="M1A">M1A</option>
+        <option value="M1B">M1B</option>
+        <option value="M1C">M1C</option>
+        <option value="M1D">M1D</option>
     </select>
     
     <br><br>
 
-    <form>
-
+    
+    <fieldset>
         <legend>Welbevinden</legend>
 
     <p>Hoe positief ben je op dit moment over je opleiding?</p>
-    <input type="radio" name="cijfer" value="0" checked> 0
-    <input type="radio" name="cijfer" value="1" checked> 1
-    <input type="radio" name="cijfer" value="2" checked> 2
-    <input type="radio" name="cijfer" value="3" checked> 3
-    <input type="radio" name="cijfer" value="4" checked> 4
-    <input type="radio" name="cijfer" value="5" checked> 5
-    <input type="radio" name="cijfer" value="6" checked> 6
-    <input type="radio" name="cijfer" value="7" checked> 7
-    <input type="radio" name="cijfer" value="8" checked> 8
-    <input type="radio" name="cijfer" value="9" checked> 9
-    <input type="radio" name="cijfer" value="10" checked> 10
+    <label><input type="radio" name="Positief?" value="0"> 0</label>
+    <label><input type="radio" name="Positief?" value="1"> 1</label>
+    <label><input type="radio" name="Positief?" value="2"> 2</label>
+    <label><input type="radio" name="Positief?" value="3"> 3</label>
+    <label><input type="radio" name="Positief?" value="4"> 4</label>
+    <label><input type="radio" name="Positief?" value="5"> 5</label>
+    <label><input type="radio" name="Positief?" value="6"> 6</label>
+    <label><input type="radio" name="Positief?" value="7"> 7</label>
+    <label><input type="radio" name="Positief?" value="8"> 8</label>
+    <label><input type="radio" name="Positief?" value="9"> 9</label>
+    <label><input type="radio" name="Positief?" value="10"> 10</label>
 
-    </form>
-    <form>
     
     <p>Hoe gemotiveerd ben je momenteel om de opleiding af te maken?</p>
-    <input type="radio" name="cijfer" value="0" checked> 0
-    <input type="radio" name="cijfer" value="1" checked> 1
-    <input type="radio" name="cijfer" value="2" checked> 2
-    <input type="radio" name="cijfer" value="3" checked> 3
-    <input type="radio" name="cijfer" value="4" checked> 4
-    <input type="radio" name="cijfer" value="5" checked> 5
-    <input type="radio" name="cijfer" value="6" checked> 6
-    <input type="radio" name="cijfer" value="7" checked> 7
-    <input type="radio" name="cijfer" value="8" checked> 8
-    <input type="radio" name="cijfer" value="9" checked> 9
-    <input type="radio" name="cijfer" value="10" checked> 10
+    <label><input type="radio" name="Gemotiveerd?" value="0"> 0</label>
+    <label><input type="radio" name="Gemotiveerd?" value="1"> 1</label>
+    <label><input type="radio" name="Gemotiveerd?" value="2"> 2</label>
+    <label><input type="radio" name="Gemotiveerd?" value="3"> 3</label>
+    <label><input type="radio" name="Gemotiveerd?" value="4"> 4</label>
+    <label><input type="radio" name="Gemotiveerd?" value="5"> 5</label>
+    <label><input type="radio" name="Gemotiveerd?" value="6"> 6</label>
+    <label><input type="radio" name="Gemotiveerd?" value="7"> 7</label>
+    <label><input type="radio" name="Gemotiveerd?" value="8"> 8</label>
+    <label><input type="radio" name="Gemotiveerd?" value="9"> 9</label>
+    <label><input type="radio" name="Gemotiveerd?" value="10"> 10</label>
 
-    </form>
-    <form>
 
     <p>Hoeveel vertrouwen heb je momenteel in je eigen kunnen?</p>
-    <input type="radio" name="cijfer" value="0" checked> 0
-    <input type="radio" name="cijfer" value="1" checked> 1
-    <input type="radio" name="cijfer" value="2" checked> 2
-    <input type="radio" name="cijfer" value="3" checked> 3
-    <input type="radio" name="cijfer" value="4" checked> 4
-    <input type="radio" name="cijfer" value="5" checked> 5
-    <input type="radio" name="cijfer" value="6" checked> 6
-    <input type="radio" name="cijfer" value="7" checked> 7
-    <input type="radio" name="cijfer" value="8" checked> 8
-    <input type="radio" name="cijfer" value="9" checked> 9
-    <input type="radio" name="cijfer" value="10" checked> 10
+    <label><input type="radio" name="Vertrouwen?" value="0"> 0</label>
+    <label><input type="radio" name="Vertrouwen?" value="1"> 1</label>
+    <label><input type="radio" name="Vertrouwen?" value="2"> 2</label>
+    <label><input type="radio" name="Vertrouwen?" value="3"> 3</label>
+    <label><input type="radio" name="Vertrouwen?" value="4"> 4</label>
+    <label><input type="radio" name="Vertrouwen?" value="5"> 5</label>
+    <label><input type="radio" name="Vertrouwen?" value="6"> 6</label>
+    <label><input type="radio" name="Vertrouwen?" value="7"> 7</label>
+    <label><input type="radio" name="Vertrouwen?" value="8"> 8</label>
+    <label><input type="radio" name="Vertrouwen?" value="9"> 9</label>
+    <label><input type="radio" name="Vertrouwen?" value="10"> 10</label>
     
-    </form>
 
     <p>Hoevaak poets je je tanden op 1 dag?</p>
-     <input type="radio" name="cijfer" value="0" checked> 0
-     <input type="radio" name="cijfer" value="1" checked> 1
-     <input type="radio" name="cijfer" value="2" checked> 2
-     <input type="radio" name="cijfer" value="3" checked> 3
-     <input type="radio" name="cijfer" value="4" checked> 4
-     <input type="radio" name="cijfer" value="5" checked> 5
-     <input type="radio" name="cijfer" value="6" checked> 6
-     <input type="radio" name="cijfer" value="7" checked> 7
-     <input type="radio" name="cijfer" value="8" checked> 8
-     <input type="radio" name="cijfer" value="9" checked> 9
-     <input type="radio" name="cijfer" value="10" checked> 10
-            
-     </form>
+    <label><input type="radio" name="Poetsen" value="0"> 0</label>
+    <label><input type="radio" name="Poetsen" value="1"> 1</label>
+    <label><input type="radio" name="Poetsen" value="2"> 2</label>
+    <label><input type="radio" name="Poetsen" value="3"> 3</label>
+    <label><input type="radio" name="Poetsen" value="4"> 4</label>
+    <label><input type="radio" name="Poetsen" value="5"> 5</label>
+    <label><input type="radio" name="Poetsen" value="6"> 6</label>
+    <label><input type="radio" name="Poetsen" value="7"> 7</label>
+    <label><input type="radio" name="Poetsen" value="8"> 8</label>
+    <label><input type="radio" name="Poetsen" value="9"> 9</label>
+    <label><input type="radio" name="Poetsen" value="10"> 10</label>
+
+    </fieldset>
     
-    <br><br><br> <p>Sterke kanten</p> 
+    <br>
+
+    <fieldset>
+    <legend> Sterke kanten </legend>
     <p>Wat zijn jouw sterke kanten?</p>
     
-    <form>
-     <input type="checkbox" name="optie" value="optie"> Coderen in HTML/CSS
-     <input type="checkbox" name="optie" value="optie"> Programmeren in Java
-     <input type="checkbox" name="optie" value="optie"> Scripting: programmeren in JavaScript
-     <input type="checkbox" name="optie" value="optie"> Planning
-     <input type="checkbox" name="optie" value="optie"> Samenwerken
-    </form>
+     <input type="checkbox" name="optie1" value="Coderen in HTML/CSS"> Coderen in HTML/CSS
+     <input type="checkbox" name="optie2" value="Programmeren in Java"> Programmeren in Java
+     <input type="checkbox" name="optie3" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript
+     <input type="checkbox" name="optie4" value="Planning"> Planning
+     <input type="checkbox" name="optie5" value="Samenwerken"> Samenwerken
+
+    </fieldset>
     
-    <br> <p>Nog te ontwikkelen</p>
+    <br>
+
+    <fieldset>
+    <legend> Nog te ontwikkelen </legend>
 
     <p>Aan welke skills moet je nog extra aandacht besteden?</p>
     
-    <form>
-     <input type="checkbox" name="optie" value="optie"> Coderen in HTML/CSS
-     <input type="checkbox" name="optie" value="optie"> Programmeren in Java
-     <input type="checkbox" name="optie" value="optie"> Scripting: programmeren in JavaScript  
-     <input type="checkbox" name="optie" value="optie"> Planning
-     <input type="checkbox" name="optie" value="optie"> Samenwerken
-    </form>
+     <input type="checkbox" name="optie6" value="Coderen in HTML/CSS"> Coderen in HTML/CSS
+     <input type="checkbox" name="optie7" value="Programmeren in Java"> Programmeren in Java
+     <input type="checkbox" name="optie8" value="Scripting: programmeren in JavaScript"> Scripting: programmeren in JavaScript  
+     <input type="checkbox" name="optie9" value="Planning"> Planning
+     <input type="checkbox" name="optie10" value="Samenwerken"> Samenwerken
+
+    </fieldset>
 
     <br><br>
 
     Wat zijn jouw plannen voor de toekomst? <br>
 
-    <textarea rows="4" cols="50" name="comment" form="usrform">
+    <textarea rows="4" cols="50" name="comment" placeholder="Uw plannen..">
     </textarea>
     
-    <form action="http://bla.hosts.ma-cloud.nl/pop.php">
-        <input type="submit" value="Verstuur">
+       <br> <input type="submit" value="Verstuur">
     </form>
 
      <footer>
